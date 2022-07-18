@@ -1,0 +1,29 @@
+   body{
+    font-family: "Open Sans", sans-serif;
+   }
+   .navigation{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    height: 63px;
+    width: 393px;
+    background-color: #000;
+    align-items: center;
+   }
+   
+   .logo{
+   font-size: 30px;
+    padding: 6px 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+    margin-left: 20px;
+   }
+   .nav-bar i{
+    display: inline-block;
+    color: #fff;
+    font-size: 25px;
+    margin-right: 20px;
+    font-weight: 0px;
+   }
