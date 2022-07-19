@@ -2,15 +2,15 @@
     font-family: "Open Sans", sans-serif;
    }
    .navigation{
-    position: fixed;
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
     height: 63px;
-    width: 393px;
+    width: auto;
     background-color: #000;
     align-items: center;
    }
-   
    .logo{
    font-size: 30px;
     padding: 6px 0;
@@ -26,4 +26,93 @@
     font-size: 25px;
     margin-right: 20px;
     font-weight: 0px;
+    cursor: pointer;
    }
+.nav-bar ul{
+    display: none;
+}
+    /* BANNER */
+.banner{
+   background-image: url(../image/hero-bg.jpg);
+   height: 600px;
+   width: auto;
+   background-size: cover;
+}
+.ban-backround{
+    background: rgba(0, 0, 0, 0.4);
+    height: 600px;
+    width: auto;
+}
+.banner h1{
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+    padding-top: 220px;
+}
+.banner h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 17px;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+.banner button{
+    display: block;
+    padding: 8px 28px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    border-radius: 3px;
+    margin: 40px auto 0px auto;
+}
+.banner button a{
+    color: #fff;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.banner button:hover{
+    background-color: #1bac91;
+    border: 2px solid #1bac91;
+    transition: 0.5s;
+}
+/* About */
+.about{
+    text-align: center;
+}
+.about img{
+    width: auto;
+    height: 400px;
+    /* text-align: center; */
+}
+
+@media (min-width:560px){
+   
+      
+}
+@media (min-width:900px){
+.nav-bar i{
+    display: none;
+ }
+.nav-bar ul{
+    display: inline-block;
+ }
+ .nav-bar ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+}
+.nav-bar ul li{
+ list-style: none;
+ font-size: 14px;
+ padding: 12px 0;
+}
+.nav-bar ul a{
+ text-decoration: none;
+ color: rgba(255, 255, 255, 0.8);
+}
+}
+
