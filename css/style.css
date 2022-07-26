@@ -105,10 +105,6 @@
 .about-ico-flex{
     display: flex;
 }
-.about-icon{
-    /* width: auto; */
-    /* margin: auto; */
-}
 .about-icon i{
     font-size: 35px;
     color: #1bac91;
@@ -118,17 +114,40 @@
     font-size: 22px;
     font-weight: 500;
     color: #21413c;
-    /* padding: 10px 0px; */
 }
 .about-ico-content p{
     font-size: 15px;
     color: #848484;
     padding: 10px 0px;
 } 
-.about-content{
-    /* margin: auto; */
-}
 .about-ico-flex{
+    margin-top: 33px;
+}
+.about-flex-num{
+    margin-top: 100px;
+    background-color: #f2f9f8
+}
+.about-num{
+    width: auto;
+    height: 231px;
+}
+.about-num span{
+    display: block;
     margin-top: 40px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #1bac91;
+}
+.about-num h1{
+    font-size: 28px;
+font-weight: 400;
+padding: 0;
+margin: 20px 0;
+color: #21413c;
+}
+.about-num p{
+    color: #aaaaaa;
+    font-size: 15px;
+    line-height: 20px;
 }
 
