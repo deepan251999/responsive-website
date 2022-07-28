@@ -9,6 +9,7 @@
     height: 63px;
     background-color: #000;
     align-items: center;
+    width:100%;
    }
    .logo{
    font-size: 30px;
@@ -150,4 +151,127 @@ color: #21413c;
     font-size: 15px;
     line-height: 20px;
 }
-
+            /* MODI */
+ .about-modi{
+     width: 90%;
+     margin: 30px auto 0px auto;
+ }           
+ .about-modi-content{
+    height: 490px;
+    padding: 0px 0px 0px 20px;
+ }
+ .about-modi-img{
+     height: 490px;
+ }
+ .about-modi-img img{
+     width: 90%; 
+     height: 420px;
+}
+ .about-modi-item1{
+    width: 100%; 
+    height: 107px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 12%);
+    padding: 20px;
+ }
+ .about-modi-item1 h1{
+     font-size: 18px;
+     font-weight: 600;
+     font-family: "Raleway", sans-serif;
+     color: #1bac91;
+     padding: 0px 0px 10px 0px;
+ }
+ .about-modi-item1 p{
+     font-size: 14px;
+     color: #495057;
+     line-height: 20px;
+     font-family: "Open Sans", sans-serif;
+ }
+ .about-modi-item{
+     width: 100%; 
+     height: 107px;
+     margin-top: 20px;
+     padding: 20px;
+ }
+ .about-modi-item h1{
+     font-size: 18px;
+     font-weight: 600;
+     font-family: "Raleway", sans-serif;
+     color: #444444;
+     padding: 0px 0px 10px 0px;
+ }
+ .about-modi-item p{
+     font-size: 14px;
+     color: #495057;
+     line-height: 20px;
+     font-family: "Open Sans", sans-serif;
+ }
+ .about-modi-item1:hover P{
+     color: #1bac91;
+     transition: 0.5s;
+ }
+ .about-modi-item:hover h1,.about-modi-item:hover p{
+     color: #1bac91;
+     transition: 0.5s;
+ }
+                /* SERVICES */
+ .services{
+    margin-top: 50px;
+    background-color: #f2f9f8;
+    height: 1800px;
+}
+.services-content{
+    text-align: center;
+    width: 90%;
+    margin: 0px auto;
+}
+.services h1{
+    font-size: 36px;
+    font-weight: 300;
+    color: #21413c;
+    font-family: "Raleway", sans-serif;
+    padding-top: 50px;
+}
+.services p{
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    padding: 28px 0px 0px 0px;
+    line-height: 24px;
+}
+.sevice-flex{
+    margin: 30px 0px 0px 0px ;
+}
+.service-item{
+    width: 90%;
+    background-color: #fff;
+    height: 335px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 40px auto;
+} 
+.service-item i{
+    display: inline-block;
+    padding: 40px 0px 0px 0px ;
+}
+.service-item h2{
+    padding: 40px 0px 0px 0px ;
+}
+.service-item .icofont-basketball{
+    color: #ff689b;
+    font-size: 40px;
+}
+.service-item .icofont-ui-file{
+    font-size: 40px;
+    color: #3fcdc7;
+}
+.service-item .icofont-speed-meter {
+    font-size: 40px;
+    color: #41cf2e;
+}
+.service-item .icofont-world{
+    font-size: 40px;
+    color: #2282ff;
+}
+.service-item:hover{
+    box-shadow: 0 2px 29px 0 rgb(37 37 37 / 10%);
+    transition: 0.5s;
+}
