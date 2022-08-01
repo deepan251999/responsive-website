@@ -199,6 +199,13 @@ color: #21413c;
 .nav-bar ul a:hover{
     color: #fff;
 }
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
 /* ABOUT */
  .about-flex{
     display: flex;
@@ -339,10 +346,13 @@ color: #21413c;
     transition: 0.5s;
 }
             /* SERVICES */
+.services-main{
+    height: auto;
+}
 .services{
     margin-top: 50px;
     background-color: #f2f9f8;
-    height: 600px;
+    height: 650px;
 }
 .services-content{
     text-align: center;
@@ -403,6 +413,7 @@ color: #21413c;
     transition: 0.5s;
 }
                 /* TESTIMONALS */
+              
  .testimonal{
     width: 88%;
     margin: auto;
@@ -421,7 +432,99 @@ color: #21413c;
     padding: 28px 0px 0px 0px;
     line-height: 24px;
     text-align: center;
-}                 
+}   
+.testimonal-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+    margin: 0 auto;
+}   
+.testimonal-content{
+    font-style: italic;
+    margin: 0 15px 0 15px;
+    padding: 20px 20px 60px 20px;
+    background: #eff7f6;
+    margin-top: 30px;
+    border-radius: 10px;
+}   
+.icofont-quote-left{
+    color: #a8d3cc;
+    padding: 4px;
+}
+.icofont-quote-right{
+    color: #a8d3cc;
+    padding: 4px;
+}
+.testimonal-img{
+    position: relative;
+}
+.testimonal-img img{
+     position: absolute;
+      width: 100px;
+      border-radius: 50%; 
+      border: 6px solid #fff; 
+      bottom: -56px;
+      left: 46px;
+}
+.testimonal-item h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 67px 0 5px 45px;
+    color: #111;
+}
+.testimonal-item h4{
+    font-size: 14px;
+    color: #999;
+    margin: 0 0 0 45px;
+    font-weight: 100;
+}
+          /* PORTFOLIO */
+.portfolio{
+     margin-top: 50px;
+     background-color: #f2f9f8;
+}
+.portfolio-content{
+     text-align: center;
+     width: 88%;
+     margin: 0px auto;
+}
+.portfolio h1{
+     font-size: 36px;
+     font-weight: 300;
+     color: #21413c;
+     font-family: "Raleway", sans-serif;
+     padding-top: 50px;
+}
+.portfolio p{
+     font-family: "Open Sans", sans-serif;
+     color: #444444;
+     padding: 28px 0px 0px 0px;
+     line-height: 24px;
+}
+.portflio-all-flex{
+    margin: 50px 0px ;
+}
+.portflio-all-flex ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 29px 0 rgb(37 37 37 / 10%);
+}
+.portflio-all-flex ul li a{
+    display: inline-block;
+    padding: 16px 15px 16px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #444444;
+}
+.portflio-all-flex ul li a span{
+    color: #1bac91;
+}
+
+
 }
 
 
