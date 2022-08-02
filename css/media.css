@@ -523,7 +523,81 @@ color: #21413c;
 .portflio-all-flex ul li a span{
     color: #1bac91;
 }
-
+.portfolio-img{
+    position: relative;
+}
+.portfolio-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+.portfolio-item{
+    overflow: hidden;
+}
+.portfolio-img img{
+    height: 255px;
+    width: 275px;
+}
+.portfolio-background{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    height: 255px;
+    width: 275px;
+    top: 0;
+    text-align: center;
+    opacity: 0;
+}
+.portfolio-img:hover .portfolio-background{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    height: 255px;
+    width: 275px;
+    top: 0;
+    text-align: center;
+    opacity: 1;
+    transition: 1s;
+    transform: scale(1.1);
+}
+.portfolio-background::before{
+    position: relative;
+    position: absolute;
+    content: "";
+    border-left:3px solid #fff ;
+    border-top:3px solid #fff ;
+    width: 50px;
+    height: 50px;
+    top: 25px;
+    left: 27px;
+}
+.portfolio-background::after{
+    position: absolute;
+    content: "";
+    border-right:3px solid #fff ;
+    border-bottom:3px solid #fff ;
+    width: 50px;
+    height: 50px;
+    bottom: 25px;
+    right: 27px;
+}
+.portfolio-background h1{
+    margin-top: 40px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+}
+.portfolio-background h2{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 100;
+    padding: 15px;
+}
+.portfolio-background i{
+    padding: 9px;
+    color: #fff;
+}
+/* PORTFOLIO-HOVER */
 
 }
 
