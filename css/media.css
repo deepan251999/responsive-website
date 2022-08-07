@@ -1290,6 +1290,128 @@ textarea:focus{
     outline: 1px solid #1bac91 ;
     border: none;
 }
+.contact-button {
+    text-align: center;
+}
+.contact-button button{
+    padding: 20px 40px;
+    color: #fff;
+    background: #1bac91;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+.contact-button button:hover{
+    background: #22d8b6;
+    transition: 0.5s;
+}
+
+        /* FINAL */
+.final{
+    background: #0c1817;
+    border-bottom: 1px solid #18302c;
+}
+.final-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 50px auto 0px auto;
+    padding: 60px 0px;
+}
+.final-item1{
+    width: 25%;
+}
+.final-item1 h3{
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    line-height: 1;
+    font-weight: 700;
+    color: #fff;
+}
+.final-item1 p{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+}
+.final-span{
+        margin-top: 20px;
+}
+.final-item1 span{
+    font-weight: 600;
+}
+.final-item2{
+    width: 25%;
+}
+.final-item2 h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 12px;
+}
+.final-item2 ul li i{
+    display: inline-block;
+    color: #1bac91;
+    padding: 12px 3px;
+}
+.final-item2 ul li a{
+    color: #fff;
+}
+.final-item3{
+    width: 25%;
+}
+.final-item3 h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 12px;
+}
+.final-item3 ul li i{
+    display: inline-block;
+    color: #1bac91;
+    padding: 12px 3px;
+}
+.final-item3 ul li a{
+    color: #fff;
+}
+.final-item4{
+    width: 40%;
+}
+.final-item4 h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 12px;
+}
+.final-item4 p{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+}
+.final-button{
+    position: relative;
+    margin-top: 40px;
+}
+.final-item4 input{
+    border-radius: 3px;
+    display: inline-block;
+   padding: 15px 50px ;
+}
+.final-item4 button{
+    position: absolute;
+    padding: 17px 40px;
+    border-radius: 3px;
+    color: #fff;
+    background: #1bac91;
+    top: 10px;
+    right: -20px;
+    border: none;
+    font-weight: 500;
+}
 }
 
 
