@@ -506,6 +506,135 @@
         padding: 9px;
         color: #fff;
     }
+    .final{
+        background: #0c1817;
+        border-bottom: 1px solid #18302c;
+    }
+    .final-flex{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 50px auto 0px auto;
+        padding: 60px 0px;
+    }
+    .final-item1{
+        width: 50%;
+    }
+    .final-item1 h3{
+        font-size: 24px;
+        margin: 0 0 20px 0;
+        line-height: 1;
+        font-weight: 700;
+        color: #fff;
+    }
+    .final-item1 p{
+        font-size: 14px;
+        line-height: 24px;
+        font-family: "Raleway", sans-serif;
+        color: #fff;
+    }
+    .final-span{
+            margin-top: 20px;
+    }
+    .final-item1 span{
+        font-weight: 600;
+    }
+    .final-item1  i{
+        display: inline-block;
+        border-radius: 50%;
+        padding: 10px;
+        color: #fff;
+        background: #1c3733;
+    }
+    .final-item1  i:hover{
+        background: #1bac91;
+        transition: 0.5s;
+    }
+    .final-icon-item{
+        padding: 0px 3px;
+    }
+    .final-icon--flex{
+        display: flex;
+        padding: 20px 0px;
+    }
+    .final-item2{
+        width: 50%;
+    }
+    .final-item2 h4{
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        padding-bottom: 12px;
+        margin-top: 30px;
+    }
+    .final-item2 ul li i{
+        display: inline-block;
+        color: #1bac91;
+        padding: 12px 3px;
+    }
+    .final-item2 ul li a{
+        color: #fff;
+    }
+    .final-item3{
+        width: 50%;
+        margin-top: 30px;
+    }
+    .final-item3 h4{
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        padding-bottom: 12px;
+    }
+    .final-item3 ul li i{
+        display: inline-block;
+        color: #1bac91;
+        padding: 12px 3px;
+    }
+    .final-item3 ul li a{
+        color: #fff;
+    }
+    .final-item4{
+        width: 50%;
+        margin-top: 30px;
+    }
+    .final-item4 h4{
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        padding-bottom: 12px;
+    }
+    .final-item4 p{
+        font-size: 14px;
+        line-height: 24px;
+        font-family: "Raleway", sans-serif;
+        color: #fff;
+    }
+    .final-button{
+        position: relative;
+        margin-top: 40px;
+    }
+    .final-item4 input{
+        border-radius: 3px;
+        display: inline-block;
+       padding: 15px 0;
+    }
+    .final-item4 button{
+        position: absolute;
+        padding: 17px 40px;
+        border-radius: 3px;
+        color: #fff;
+        background: #1bac91;
+        top: 10px;
+        right: 2px;
+        border: none;
+        font-weight: 500;
+    }
+    .final-item4 button:hover{
+        background: #22d8b6;
+        transition: 0.5s;
+        cursor: pointer;
+    }
 }
 
 /* 990 MIN WIDTH LAPTOP */
@@ -1317,12 +1446,12 @@ textarea:focus{
 .final-flex{
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
     margin: 50px auto 0px auto;
-    padding: 60px 0px;
 }
 .final-item1{
     width: 25%;
+    margin-top: 30px;
 }
 .final-item1 h3{
     font-size: 24px;
@@ -1362,24 +1491,23 @@ textarea:focus{
     padding: 20px 0px;
 }
 .final-item2{
-    width: 25%;
+    width: 16%;
 }
 .final-item2 h4{
     font-size: 16px;
     font-weight: 600;
     color: #fff;
-    padding-bottom: 12px;
 }
 .final-item2 ul li i{
     display: inline-block;
     color: #1bac91;
-    padding: 12px 3px;
+    /* padding: 12px 3px; */
 }
 .final-item2 ul li a{
     color: #fff;
 }
 .final-item3{
-    width: 25%;
+    width: 20%;
 }
 .final-item3 h4{
     font-size: 16px;
@@ -1396,7 +1524,7 @@ textarea:focus{
     color: #fff;
 }
 .final-item4{
-    width: 40%;
+    width: 30%;
 }
 .final-item4 h4{
     font-size: 16px;
@@ -1417,11 +1545,11 @@ textarea:focus{
 .final-item4 input{
     border-radius: 3px;
     display: inline-block;
-   padding: 15px 50px ;
+   padding: 13px 50px ;
 }
 .final-item4 button{
     position: absolute;
-    padding: 17px 40px;
+    padding: 15px 29px;
     border-radius: 3px;
     color: #fff;
     background: #1bac91;
