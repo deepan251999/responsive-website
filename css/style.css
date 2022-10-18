@@ -13,8 +13,7 @@
        align-items: center;
        width: 100%;
    }
-
-   .logo {
+.logo {
        font-size: 30px;
        padding: 6px 0;
        line-height: 1;
@@ -22,10 +21,8 @@
        letter-spacing: 2px;
        color: #fff;
        margin-left: 20px;
-
    }
-
-   .nav-bar i {
+.nav-bar i {
        display: inline-block;
        color: #fff;
        font-size: 25px;
@@ -34,17 +31,17 @@
        cursor: pointer;
    }
 
-   .nav-bar ul {
+.nav-bar ul {
        display: none;
    }
 
-   li {
+li {
        list-style: none;
-   }
+}
 
-   a {
+a {
        text-decoration: none;
-   }
+}
 
    /* BANNER */
    .banner {
