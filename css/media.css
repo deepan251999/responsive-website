@@ -179,6 +179,37 @@
     color: #1bac91;
     transition: 0.5s;
 }
+        /* COPY RIGHTS */
+            .copyright{
+                background: black;
+                text-align: center;
+                height: 120px;
+            }
+            .copyright-ico{
+                padding: 30px 0px 15px 0px;
+            }
+            .copyright-ico i{
+                color: #fff;
+                font-size: 14px;
+                margin: 0px 3px 0px 0px ;
+            }
+            .copyright-ico p{
+                color: #fff;
+                font-family: "Open Sans", sans-serif;
+                font-size: 14px;
+            }
+            .copyright-ico span{
+                font-weight: 600;
+                font-size: 16px;
+            }
+            .copyright-ico2 p{
+                color: #fff;
+                font-family: "Open Sans", sans-serif;
+                font-size: 14px;
+            }
+            .copyright-ico2 a{
+                color: #1bac91;
+            }
 
 }
 
